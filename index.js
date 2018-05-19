@@ -17,3 +17,9 @@ function nowServing(katzDeliLine) {
   }
   return retStr;
 }
+
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+    var retStr = "There is nobody waiting to be served!";
+  }
+}
