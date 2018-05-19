@@ -23,6 +23,8 @@ function currentLine(katzDeliLine) {
     var retStr = "The line is currently empty.";
   } else {
     retStr = "The line is currently: ";
-    
+    katzDeliLine.forEach(function(name) {
+      retStr += 
+    })
   }
 }
