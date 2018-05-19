@@ -26,7 +26,10 @@ function currentLine(katzDeliLine) {
     
     for (var i = 0; i < katzDeliLine.length; i++) {
       var linePlace = i + 1;
-      retStr += `${linePlace}. ${katzDeliLine[i]}, `;
+      retStr += `${linePlace}. ${katzDeliLine[i]} `;
+      if (i !== katzDeliLine.length - 1) {
+        retStr += ", ";
+      }
     }
   }
   return retStr;
